@@ -15,7 +15,7 @@ public class EurekaServerApplication {
 }
 
 @RestController
-class Health {
+class Init {
 
 	@GetMapping(value = "/")
 	public String index() {
